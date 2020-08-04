@@ -1,0 +1,16 @@
+{
+    id: 1234
+    strategy: maxRate
+    parameters: {
+      maxPermits: 1
+      duration: 1000
+    }
+  }
+  {
+    id: trying
+    strategy: maxRate
+    parameters: {
+      maxPermits: 1
+      duration: 1000
+    }
+  }
